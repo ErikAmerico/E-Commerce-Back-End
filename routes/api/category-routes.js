@@ -41,7 +41,7 @@ router.post('/', async (req, res) => {
     const categoryData = await Category.create(req.body);
     res.status(200).json(categoryData);
   } catch (err) {
-    res.status(400).json(err);
+    res.status(400).json({ message: "We've run into an issue" });
   }
 });
 
