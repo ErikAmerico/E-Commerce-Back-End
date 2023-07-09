@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
     });
     res.status(200).json(categoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500).json({ message: "We've run into an issue" });
   }
 });
 
@@ -31,7 +31,7 @@ router.get('/', async (req, res) => {
 
     res.status(200).json(categoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500).json({ message: "We've run into an issue" });
   }
 });
 
@@ -61,7 +61,7 @@ router.put('/:id', async (req, res) => {
 
     res.status(200).json({ message: 'Category updated successfully!' });
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500).json({ message: "We've run into an issue" });
   }
 });
 
@@ -81,7 +81,7 @@ router.delete('/:id', async (req, res) => {
 
     res.status(200).json(categoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500).json({ message: "We've run into an issue" });
   }
 });
 
