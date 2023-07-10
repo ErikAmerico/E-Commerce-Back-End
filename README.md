@@ -40,11 +40,11 @@ To run this program:
 ## Screenshots
 This shows the executed route for retrieving all categories. 
 
-![Show Categories](\Assets\InsomniaApiCategories.png)
+![Show Categories](/Assets/InsomniaApiCategories.png)
 
 This shows the executed route for creating a new product.
 
-![Create Product](\Assets\InsomniaApiCreateProduct.png)
+![Create Product](/Assets/InsomniaApiCreateProduct.png)
 
 ## Contact
 
